@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.2">
+    <title xml:lang="ko">MAGIK</title>
+    <description xml:lang="ko">
+	http://chemi.kr/ 케미(Chemistry)
+    </description>
+    <version>1.0</version>
+    <date>2016-11-11</date>
+    <author email_address="alohafromhell@me.com" link="http://chemi.kr/">
+        <name xml:lang="ko">케미(Chemistry)</name>
+    </author>
+	
+    <extra_vars>
+	<group>
+	<title xml:lang="ko">사이트 기본 설정</title>	
+		<var name="logo_image" type="image">
+            <title xml:lang="ko">로고 이미지</title>
+            <description xml:lang="ko">54 x 54 크기의 png 파일</description>
+        </var>
+		<var name="logo_url" type="text">
+            <title xml:lang="ko">로고 링크 url</title>
+            <description xml:lang="ko">로고 클릭시 이동할 주소를 입력합니다. (미입력시 홈페이지로 이동)</description>
+        </var>				
+		<var name="royals_mid" type="text">
+            <title xml:lang="ko">로그인, 프로필 링크</title>
+            <description xml:lang="ko">로그인, 프로필 클릭시 출력할 위치의 모듈id를 입력합니다. (모듈id만 입력합니다. 예) signup)</description>
+        </var>
+		<var name="foxes" type="text">
+            <title xml:lang="ko">검색 결과 mid</title>
+            <description xml:lang="ko">검색 결과를 출력할 위치의 모듈id를 입력합니다. (모듈id만 입력합니다. 예) search)</description>
+        </var>
+	</group>
+		
+	<group>
+	<title xml:lang="ko">메뉴 위젯</title>
+		<var name="mw1" type="textarea">
+            <title xml:lang="ko">메뉴1 위젯</title>
+            <description xml:lang="ko">메뉴1 위젯(html/text위젯 등) (해당 메뉴에 늘 펼쳐짐 기능을 체크할경우 출력됩니다.)</description>
+        </var>	
+		<var name="mw2" type="textarea">
+            <title xml:lang="ko">메뉴2 위젯</title>
+            <description xml:lang="ko">메뉴2 위젯(html/text위젯 등) (해당 메뉴에 늘 펼쳐짐 기능을 체크할경우 출력됩니다.)</description>
+        </var>	
+		<var name="mw3" type="textarea">
+            <title xml:lang="ko">메뉴3 위젯</title>
+            <description xml:lang="ko">메뉴3 위젯(html/text위젯 등) (해당 메뉴에 늘 펼쳐짐 기능을 체크할경우 출력됩니다.)</description>
+        </var>	
+		<var name="mw4" type="textarea">
+            <title xml:lang="ko">메뉴4 위젯</title>
+            <description xml:lang="ko">메뉴4 위젯(html/text위젯 등) (해당 메뉴에 늘 펼쳐짐 기능을 체크할경우 출력됩니다.)</description>
+        </var>	
+		<var name="mw5" type="textarea">
+            <title xml:lang="ko">메뉴5 위젯</title>
+            <description xml:lang="ko">메뉴5 위젯(html/text위젯 등) (해당 메뉴에 늘 펼쳐짐 기능을 체크할경우 출력됩니다.)</description>
+        </var>	
+	</group>
+    </extra_vars>
+
+    <menus>
+        <menu name="main_menu" maxdepth="3" default="true">
+            <title xml:lang="ko">메인 메뉴</title>
+        </menu>
+    </menus>
+	
+</layout>
